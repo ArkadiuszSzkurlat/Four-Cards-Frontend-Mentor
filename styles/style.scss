@@ -1,0 +1,62 @@
+$header1: 3rem;
+$header2: 2rem;
+$header3: 1.5rem;
+$header4: 1rem;
+$text: 1.5rem;
+$dark-blue: hsl(234, 12%, 34%);
+$gray-blue: hsl(229, 6%, 66%);
+$light-grey: hsl(0, 0%, 98%);
+
+@mixin flex($justify, $align, $direction) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@import "global";
+@import "main";
+
+@media screen and (max-width: 930px) {
+	.speech {
+		width: 60%;
+	}
+	.boxes {
+		grid-template-columns: repeat(2, 2fr);
+	}
+	.supervisor {
+		grid-row: 1/2;
+	}
+	.team-builder {
+		grid-row: 1/2;
+	}
+	.karma {
+		grid-row: 2/3;
+	}
+	.calculator {
+		grid-row: 2/3;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.speech {
+		width: 90%;
+	}
+	.boxes {
+		grid-template-columns: 1fr;
+	}
+	.supervisor {
+		grid-row: 1;
+		align-self: center;
+	}
+	.team-builder {
+		grid-row: 2;
+	}
+	.karma {
+		grid-row: 3;
+	}
+	.calculator {
+		grid-row: 4;
+		align-self: center;
+	}
+}
