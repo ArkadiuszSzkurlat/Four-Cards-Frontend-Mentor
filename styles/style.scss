@@ -24,6 +24,10 @@ $light-grey: hsl(0, 0%, 98%);
 	.boxes {
 		grid-template-columns: repeat(2, 2fr);
 	}
+	.box{
+		min-height: 25rem;
+		max-height: 25rem;
+	}
 	.supervisor {
 		grid-row: 1/2;
 		grid-column: 1/2;
