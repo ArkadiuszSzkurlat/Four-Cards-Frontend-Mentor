@@ -223,21 +223,33 @@ footer {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
   }
   .team-builder {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
   }
   .karma {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
   }
   .calculator {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
   }
 }
 
@@ -252,6 +264,8 @@ footer {
   .supervisor {
     -ms-grid-row: 1;
     grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -259,14 +273,20 @@ footer {
   .team-builder {
     -ms-grid-row: 2;
     grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
   }
   .karma {
     -ms-grid-row: 3;
     grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
   }
   .calculator {
     -ms-grid-row: 4;
     grid-row: 4;
+    -ms-grid-column: 1;
+    grid-column: 1;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
