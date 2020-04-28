@@ -78,15 +78,17 @@ h5 {
 
 .container {
   min-height: 80vh;
+  position: relative;
 }
 
 .boxes {
-  padding-top: 5rem;
+  padding-top: 5%;
   width: 80%;
   -webkit-column-gap: 2rem;
           column-gap: 2rem;
   row-gap: 3rem;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -268,6 +270,42 @@ footer {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+}
+
+@media screen and (min-height: 850px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-height: 1100px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media screen and (min-height: 1200px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-height: 1300px) {
+  html {
+    font-size: 110%;
   }
 }
 /*# sourceMappingURL=style.css.map */

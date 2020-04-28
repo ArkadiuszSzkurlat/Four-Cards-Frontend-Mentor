@@ -60,3 +60,34 @@ $light-grey: hsl(0, 0%, 98%);
 		align-self: center;
 	}
 }
+
+@media screen and (min-height:850px){
+	html{
+		font-size: 75%;
+	}
+}
+@media screen and (min-height:1000px){
+	html{
+		font-size: 80%;
+	}
+}
+@media screen and (min-height:1100px){
+	html{
+		font-size: 85%;
+	}
+}
+@media screen and (min-height:1200px){
+	html{
+		font-size: 90%;
+	}
+}
+@media screen and (min-height:1300px){
+	html{
+		font-size: 100%;
+	}
+}
+@media screen and (min-height:1300px){
+	html{
+		font-size: 110%;
+	}
+}
