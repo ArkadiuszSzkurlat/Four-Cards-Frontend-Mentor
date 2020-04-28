@@ -22,7 +22,7 @@
 	position: relative;
 }
 .boxes {
-	padding-top: 5%;
+	padding-top: 3%;
 	width: 80%;
 	column-gap: 2rem;
 	row-gap: 3rem;
@@ -31,7 +31,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	// grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 }
 
 .box {

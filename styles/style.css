@@ -82,7 +82,7 @@ h5 {
 }
 
 .boxes {
-  padding-top: 5%;
+  padding-top: 3%;
   width: 80%;
   -webkit-column-gap: 2rem;
           column-gap: 2rem;
@@ -93,8 +93,8 @@ h5 {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (1fr)[3];
-      grid-template-rows: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
 .box {
@@ -227,7 +227,7 @@ footer {
   }
   .box {
     min-height: 25rem;
-    max-height: 25rem;
+    min-height: 25rem;
   }
   .supervisor {
     -ms-grid-row: 1;
